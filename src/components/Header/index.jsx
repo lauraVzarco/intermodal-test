@@ -1,10 +1,14 @@
 import React from "react";
+import "./index.css";
 
-function Header({ group, groupName }) {
+function Header({ group, groupName, darkColor }) {
   return (
     <div className="Header">
-      <div> {group.length} </div>
-      <div> Assets de {groupName}</div>
+      <div className={darkColor ? "darkLength" : "length"}>
+        {" "}
+        {group.length}{" "}
+      </div>
+      <div className={darkColor ? "darkName" : "name"}> {groupName} assets</div>
     </div>
   );
 }

@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.buttonsPlace {
+.headers {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 25px;
 }

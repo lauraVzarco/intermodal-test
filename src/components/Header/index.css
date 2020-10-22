@@ -1,0 +1,28 @@
+.Header {
+  margin: auto;
+  font-style: arial;
+  color: white;
+  width: 20%;
+  text-align: right;
+}
+.length {
+  background-color: #5bc0de;
+  font-size: 50px;
+  padding: 0px 8px 2px 0px;
+}
+.name {
+  background-color: #52adc8;
+  font-size: 20px;
+  padding: 0px 8px 2px 0px;
+}
+
+.darkLength {
+  background-color: #337ab7;
+  font-size: 50px;
+  padding: 0px 8px 2px 0px;
+}
+.darkName {
+  background-color: #2e6ea5;
+  font-size: 20px;
+  padding: 0px 8px 2px 0px;
+}

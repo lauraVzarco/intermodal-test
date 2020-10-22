@@ -1,0 +1,16 @@
+.table {
+  display: inline-block;
+  overflow-y: auto;
+  margin-right: 75%;
+  width: 50%;
+}
+.dataInfo {
+  width: 50%;
+  margin-right: 2px;
+}
+
+.info {
+  border-top: 1px solid #e0e0dc;
+  padding: 0;
+  width: 5%;
+}
